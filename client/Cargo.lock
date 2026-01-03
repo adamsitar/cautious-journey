@@ -1681,13 +1681,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cautious-journey"
-version = "0.1.0"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "cc"
 version = "1.2.51"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1735,6 +1728,13 @@ dependencies = [
  "glob",
  "libc",
  "libloading",
+]
+
+[[package]]
+name = "client"
+version = "0.1.0"
+dependencies = [
+ "bevy",
 ]
 
 [[package]]
